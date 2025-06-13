@@ -10,4 +10,3 @@ categories = ["data-structures", "parsing"]
 
 [dependencies]
 rustc-hash = "2.0"
-smallvec = "1.13"
