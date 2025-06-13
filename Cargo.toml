@@ -1,0 +1,13 @@
+[package]
+name = "ironwood"
+version = "0.1.0"
+edition = "2021"
+description = "Efficient S-expression evaluation engine with string interning and memoization"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/flipbitsnotburgers/ironwood"
+keywords = ["expressions", "evaluation", "s-expressions", "lisp", "scheme"]
+categories = ["data-structures", "parsing"]
+
+[dependencies]
+rustc-hash = "2.0"
+smallvec = "1.13"
